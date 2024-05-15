@@ -134,6 +134,10 @@ nav li a {
   border-radius: 10px;
 }
 
+.col-4 img:hover {
+  transform: translateY(-3px);
+}
+
 h4{
   color: azure;
 }
