@@ -74,6 +74,9 @@ nav li a {
 .col-2 {
   flex-basis: 50%;
   min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .col-1 {
@@ -134,8 +137,9 @@ nav li a {
   border-radius: 10px;
 }
 
-.col-4 img:hover {
+.col-4:hover {
   transform: translateY(-3px);
+  transition: transform 0.7s;
 }
 
 h4{
