@@ -75,7 +75,7 @@ nav li a {
   flex-basis: 50%;
   min-width: 300px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -158,7 +158,7 @@ h4{
 }
 
 .home-img {
-  width: 80%;
+  width: 65%;
   margin: 10px; 
   margin-bottom: 30px;
   border-radius: 100px;
@@ -853,6 +853,7 @@ input:focus {
   .home-img {
     border-radius: 50px;
     margin: 40px 0 20px 0;
+    justify-content: center;
   }
   
   .small-container {
