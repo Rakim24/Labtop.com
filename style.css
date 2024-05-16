@@ -827,11 +827,11 @@ input:focus {
   
   /* home */
   .col-2, .col-3 {
-    flex-basis: 100%;
+    flex-basis: 70%;
   }
   
   .col-4 {
-    flex-basis: 80%;
+    flex-basis: 60%;
   }
   
   .footer-1, .footer-2{
@@ -851,7 +851,7 @@ input:focus {
   }
   
   .home-img {
-    border-radius: 50px;
+    border-radius: 10%;
     margin: 40px 0 20px 0;
     justify-content: center;
   }
